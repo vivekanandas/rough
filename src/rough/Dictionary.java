@@ -1,5 +1,5 @@
 package rough;
-
+// this is a interface
 public interface Dictionary<E, K extends Sortable> {
 	// search for an entry with key KEY and return the object
 	public abstract E search(K key);
