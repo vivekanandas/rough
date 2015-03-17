@@ -1,6 +1,7 @@
 package rough;
 
 // The "AVLNode" class.
+//change
 public class AVLNode<E, K extends Sortable> {
 	// Public constants.
 	public static final int MORE_LEFT = 1;
