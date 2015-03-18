@@ -6,7 +6,6 @@ package rough;
 public class AVLNode<E, K extends Sortable> {
 	// Public constants.
 	public static final int MORE_LEFT = 1;
-	int x =0;
 
 	public static final int EVEN = 2;
 
