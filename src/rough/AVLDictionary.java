@@ -1,5 +1,5 @@
 package rough;
-
+//AVL
 public class AVLDictionary<E, K extends Sortable> implements Dictionary<E,K>{
 	
 	AVLNode<E,K> root = null;
