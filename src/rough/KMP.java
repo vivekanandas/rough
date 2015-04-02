@@ -10,7 +10,7 @@ public class KMP {
 		PMT[1] = 0;
 		for (int i = 2; i <= ptrnLen; i++) {
 			PMT[i] = (ptrn.charAt(i - 1) == ptrn.charAt(PMT[i - 1])) ? (PMT[i - 1] + 1) : 0;
-			//System.out.println(i + ": " + PMT[i]);
+			System.out.println(i + ": " + PMT[i]);
 		}
 		return PMT;
 		
